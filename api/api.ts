@@ -1,0 +1,17 @@
+export * from './auth.service';
+import { AuthService } from './auth.service';
+export * from './levelOfEducation.service';
+import { LevelOfEducationService } from './levelOfEducation.service';
+export * from './optionHasSession.service';
+import { OptionHasSessionService } from './optionHasSession.service';
+export * from './optionOfEducation.service';
+import { OptionOfEducationService } from './optionOfEducation.service';
+export * from './sessionOfEducation.service';
+import { SessionOfEducationService } from './sessionOfEducation.service';
+export * from './studentHasSession.service';
+import { StudentHasSessionService } from './studentHasSession.service';
+export * from './students.service';
+import { StudentsService } from './students.service';
+export * from './users.service';
+import { UsersService } from './users.service';
+export const APIS = [AuthService, LevelOfEducationService, OptionHasSessionService, OptionOfEducationService, SessionOfEducationService, StudentHasSessionService, StudentsService, UsersService];
